@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: #222;
+  line-height: 1.8;
+  background-color: rgb(245, 245, 245);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+/* Class chung */
+.container {
+    margin-top: -6px;
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 245, 245);
+}
+.row {
+    word-spacing: -1ch;
+}
+.item {
+    word-spacing: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+/* container */
+.nav {
+    width: 200px;
+    height: 345px;
+    background-color: white;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.menucap1 {
+    position: relative;
+}
+.menucap1-link {
+    display: block;
+    padding: 2px 2px 2px 11px;
+    background-color: white;
+}
+.menucap1-item:hover .menucap1-link {
+    background-color: rgb(236, 239, 241);
+    color: rgb(243, 109, 0);
+}
+.mrmenu {
+    height: 10px;
+}
+/* menu cap 2 */
+.menucap2 {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 200px;
+    height: 345px;
+}
+.menucap2-link {
+    display: none;
+    padding: 2px 2px 2px 11px;
+}
+.menucap1-item:hover .menucap2-link {
+    display: block;
+    padding: 2px 2px 2px 11px;
+}
+.menucap1-item:hover .menucap2 {
+    display: block;
+    background-color: white;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.menucap2-item:hover .menucap2-link {
+    background-color: rgb(236, 239, 241);
+    color: rgb(243, 109, 0);
+}
+/* menu cap 3 */
+.menucap3 {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 200px;
+    height: 345px;
+}
+.menucap3-link {
+    display: none;
+    padding: 2px 2px 2px 11px;
+}
+.menucap2-item:hover .menucap3-link {
+    display: block;
+    padding: 2px 2px 2px 11px;
+}
+.menucap2-item:hover .menucap3 {
+    display: block;
+    background-color: white;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.menucap3-item:hover .menucap3-link {
+    background-color: rgb(236, 239, 241);
+    color: rgb(243, 109, 0);
+}
+/* photonav*/
+.photonav {
+    width: 990px;
+    height: 345px;
+}
+.photonav img {
+    width: 100%;
+}
+/* nav2 */
+.nav2 {
+    width: 100%;
+    margin-top: 12px;
+}
+.nav2 .nav2item {
+    box-sizing: border-box;
+    width: 23%;
+    padding: 4px 0 4px 7px;
+    background-color: white;
+    border-radius: 70px;
+    margin: 0 1% 0 1%;
+}
+.nav2item img {
+    width: 32px;
+}
+.nav2item:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.nav2item a {
+    vertical-align: middle;
+    font-size: large;
+    padding-left: 3px;
+}
+.nav2item-hover1:hover a {
+    color: red;
+}
+.nav2item-hover2:hover a {
+    color: orange;
+}
+.nav2item-hover3:hover a {
+    color: blue;
+}
+.nav2item-hover4:hover a {
+    color: purple;
+}
+/* product */
+.box {
+    padding-top: 16px;
+    width: 12.42%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: 1px;
+}
+.box a {
+    display: block;
+    text-align: center;
+}
+.boxf a {
+    display: block;
+    text-align: center;
+}
+.boxf {
+    padding-top: 16px;
+    margin-right: 0px;
+    width: 12.475%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.boxf:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.section2 {
+    margin-top: 1px;
+}
+/* product 2 */
+.princesp {
+    margin-bottom: 35px;
+}
+.princesp-item {
+    width: 16.195%;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: 6.56px;
+}
+.princesp-item a {
+    display: block;
+}
+.princesp-items a {
+    display: block;
+}
+.princesp-items {
+    margin-right: 0px;
+    width: 16.195%;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.princesp img {
+    width: 100%;
+    height: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.princesp span {
+    text-decoration-line: line-through; 
+}
+.princesp a {
+    padding-left: 12px;
+}
+.princesp .apadding {
+    padding-top: 8px;
+}
+.princesp .acolor {
+    font-size: large;
+    color: rgb(235, 136, 8);
+}
+.princesp-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.princesp-items:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*footer*/
+.footer {
+    height: 365px;
+}
+.tinnhan {
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+    background-color: white;
+    height: 40px;
+    width: 160px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: large;
+}
+.tinnhan img {
+    padding-left: 12px;
+    padding-top: 6.5px;
+}
