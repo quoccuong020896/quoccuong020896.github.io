@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="signup">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Tên đăng nhập" required>
+        </div>
+        <div class="form-group">
+            <input name="password" type="password">
+        </div>
+        <div class="form-group">
+            <input type="date">
+        </div>
+        <div class="form-group">
+            <input type="number">
+        </div>
+        <div class="form-group">
+            <input type="file">
+        </div>
+        <div class="form-group">
+            <input checked name="gender" value="nam" type="radio">
+            <input name="gender" value="nu" type="radio">
+            <input name="gender" value="other" type="radio">
+        </div>
+        <div class="form-group">
+            <input name="option" value="dong y" type="checkbox">
+            <input name="option" value="khong dong y" type="checkbox">
+            <input name="option" value="khac" type="checkbox">
+        </div>
+        <div class="form-group">
+            <select name="year">
+                <option value="1996">1996</option>
+                <option value="1996">1997</option>
+                <option value="1996">1998</option>
+                <option value="1996">1999</option>
+                <option value="1996">2000</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea name="note" id="" cols="30" rows="10">
+
+            </textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="click vào đây">
+        </div>
+        <button type="submit">Click vào đây</button>
+    </form>
+</body>
+</html>

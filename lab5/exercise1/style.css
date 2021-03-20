@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.row {
+    word-spacing: -1ch;
+}
+.item {
+    word-spacing: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 530px;
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.box {
+    width: 33.06%;
+    text-align: center;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    margin-right: 2px;
+    padding-top: 7px;
+    background-color: #d9534f;
+    margin-bottom: 2px;
+}
+.boxsub {
+ background-color: #d9534f;
+    width: 33.06%;
+    text-align: center;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    margin-right: 0;
+    padding-top: 7px;
+    margin-bottom: 2px;
+}
+.boxsub:hover {
+    background-color: rgb(201, 48, 44);
+}
+.box:hover {
+    background-color: rgb(201, 48, 44);
+}
+.center {
+    text-align: center;
+    width: 530px;
+}
+.item2 {
+    width: 20%;
+    padding: 0 7px 0 7px;
+    margin: 10px 0 10px 0;
+}
+.item3 {
+    width: 60%;
+    padding: 0 7px 0 7px;
+    margin: 10px 0 10px 0;
+}
+.name {
+    color: rgb(141, 54, 54);
+}
+table {
+    border: solid 4px black;
+}
+.date {
+    margin-bottom: 4px;
+}
+tr {
+    border: 1px solid grey;
+}
+tbody td {
+    border: 1px solid grey;
+}
+.subnumber1 {
+    width: 50%;
+    padding: 5px;
+    font-weight: bold;
+}
+.border {
+    border-right: solid 1px grey;
+}
+.subnumber2 {
+    width: 33.33333%;
+    padding: 5px;
+    font-weight: bold;
+}
+.subnumber3 {
+    width: 25%;
+    padding: 5px;
+    font-weight: bold;
+}
+.sub {
+    padding: 5px;
+    font-weight: bold;
+}
+.sub2 {
+    padding: 3px;
+}
+
+.sub0 {
+    padding: 5px;
+}
+.hover:hover {
+    background-color: rgb(255, 191, 0);
+}
