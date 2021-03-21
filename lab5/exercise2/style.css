@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: rgb(240, 242, 245);
+}
+.container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    margin-top: 130px;
+    background-color: rgb(240, 242, 245);
+}
+.row {
+    word-spacing: -1ch;
+}
+.item {
+    word-spacing: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+/* main login */
+.main-item1 {
+    width: 60%;
+    height: 420px;
+}
+.main-item2 {
+    width: 40%;
+    height: 420px;
+    position: relative;
+    background-color: white;
+}
+
+.form {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.form-cmt {
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+    text-align: center;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.fb-logo {
+    margin: -28px;
+    padding: 80px 0 16px;
+}
+.fb-slogan {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+/* form login*/
+.form-login {
+    background-color: white;
+}
+.form-group {
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.form input[type="text"] {
+    width: 100%;;
+    height: 50px;
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 6px;
+    border: solid 0.5px rgb(231, 223, 223);
+    font-size: 17px;
+}
+.form-group2 {
+    background-color: white;
+    width: 100%;
+    padding: 0 15px;
+}
+input[type="password"] {
+    width: 100%;;
+    height: 50px;
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: solid 0.5px rgb(231, 223, 223);
+    font-size: 17px;
+}
+.button-login {
+    background-color: white;
+    width: 100%;
+    padding: 17px 15px 0 15px;
+    display: block;
+}
+.button-item {
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.quenmk {
+    background-color: white;
+    width: 100%;
+    padding: 17px 15px 17px 15px;
+}
+.quenmk-item {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: #1877f2;
+    text-decoration: none;
+}
+.boxHr {
+    width: 100%;
+    background-color: white;
+}
+.boxhr {
+    width: 90%;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    padding: 2px 16px;
+    text-align: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-login2 {
+    width: 100%;
+    background-color: white;
+    padding-top: 24px;
+}
+.button-item2 {
+    display: block;
+    width: 43%;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-item:hover {
+    background-color: rgb(53, 114, 228);
+}
+.button-item2 .acolor {
+    text-decoration: none;
+    background-color: #42b72a;
+    color: white;
+}
+.button-item2 .acolor:hover {
+    color: rgb(172, 183, 230);
+}
+.quenmk-item:hover {
+    text-decoration: underline;
+}
+/* popup register */
+.popup {
+    width: 432px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 75px;
+}
+.headpopup {
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 16px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.namedangky {
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-weight: 600;
+    display: block;
+}
+.namedangky2 {
+    background-color: #fff;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+}
+.mainpopup {
+    padding: 16px 16px;
+    background-color: #fff;
+    width: 432px;
+}
+.tentuoi {
+    background-color: #fff;
+    width: 100%;
+
+}
+.mainpopup .dkhoten1 {
+    background-color: white;
+    width: 48%;
+}
+.dkhotengiua {
+    width: 4%;
+}
+.mainpopup .dkhoten2 {
+    background-color: white;
+    width: 48%;
+}
+.mainpopup input[type="text"] {
+    width: 100%;;
+    height: 40px;
+    background-color: rgb(253, 251, 251);
+    border-radius: 6px;
+    border: solid 0.5px rgb(231, 223, 223);
+    font-size: 17px;
+    padding-left: 15px;
+}
+.pdtop {
+    padding-top: 10px;
+}
+.ngaysinh {
+    padding-top: 12px;
+    background-color: white;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 3px;
+}
+.dmy {
+    width: 100%;
+    background-color: white;
+}
+.ngaysinhbox {
+    width: 30.57%;
+}
+.ngaysinhd {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+.ngaysinhm {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+.ngaysinhy {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+.gioitinh {
+    width: 100%;
+    background-color: white;
+}
+.gioitinhbox {
+    padding-left: 5px;
+    padding-top: 8px;
+    width: 27%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(163, 162, 162);
+    height: 36px;
+}
+.gioitinhbox3 {
+    padding-left: 5px;
+    padding-top: 8px;
+    width: 38%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(163, 162, 162);
+    height: 36px;
+}
+._8esa {
+    margin-left: 45px;
+}
+.nam1 {
+    width: 100%;
+    background-color: white;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+.nu2 {
+    width: 100%;
+    background-color: white;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}.other3 {
+    width: 100%;
+    background-color: white;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+._58mv {
+    background-color: white;
+    color: #777;
+    font-size: 11px;
+    text-decoration: none;
+}
+.chuthich {
+    padding-top: 10px;
+    text-decoration: none;
+}
+.button-register {
+    width: 100%;
+    background-color: white;
+    padding-top: 24px;
+}
+.button-registerit {
+    display: block;
+    width: 43%;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 35px;
+    padding: 0 19px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-registerit:hover {
+    background-color: rgb(29, 165, 63);
+}
