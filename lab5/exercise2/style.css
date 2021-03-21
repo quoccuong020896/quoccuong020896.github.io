@@ -239,6 +239,15 @@ input[type="password"] {
     font-size: 17px;
     padding-left: 15px;
 }
+.mainpopup input[type="password"] {
+    width: 100%;;
+    height: 40px;
+    background-color: rgb(253, 251, 251);
+    border-radius: 6px;
+    border: solid 0.5px rgb(231, 223, 223);
+    font-size: 17px;
+    padding-left: 15px;
+}
 .pdtop {
     padding-top: 10px;
 }
