@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* Class chung, tạo cấu trúc */
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.flex {
+    display: flex;
+}
+.flex.wrap {
+    flex-wrap: wrap;
+}
+.flex.row {
+    flex-direction: row;
+}
+.flex.column {
+    flex-direction: column;
+}
+.flex.j-start {
+    justify-content: flex-start;
+}
+.flex.j-center {
+    justify-content: center;
+}
+.flex.j-end {
+    justify-content: flex-end;
+}
+.flex.j-between {
+    justify-content: space-between;
+}
+.flex.a-stretch {
+    align-items: stretch;
+}
+.flex.a-start {
+    align-items: flex-start;
+}
+.flex.a-center {
+    align-items: center;
+}
+.flex.a-end {
+    align-items: flex-end;
+}
+/* Header */
+.header {
+    box-shadow: 0 0 0 1px rgb(195, 185, 185);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.actions {
+    margin-left: auto;
+}
+.actions .img-header {
+    margin-left: 20px;
+}
+.logo {
+    width: 160px;
+    margin-right: 50px;
+}
+.menu-item {
+    border-radius: 35px;
+    border: solid 0.4px grey;
+    padding: 1px 10px;
+    margin-right: 15px;
+}
+.menu-item:hover a {
+    color: burlywood;
+}
+.search-form {
+    position: relative;
+}
+.search-form input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 290px;
+    border: solid 1px grey;
+    outline: none;
+}
+.search-form button {
+    position: absolute;
+    top: 6px;
+    right: 12px;
+}
+/* Main */
+.main {
+    margin-top: 80px;
+}
+.main img:hover {
+    opacity: 0.6;
+}
+.left {
+    flex-basis: calc(75% - 10px);
+}
+.main-item {
+    flex-basis: 100%;
+    height: 286.31px;
+    margin-bottom: 10px;
+}
+.main-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.left .item {
+    flex-basis: calc(100% / 3 - 20px / 3);
+    height: 88.77px;
+}
+.left .item img {
+    height: 100%;
+    object-fit: cover;
+}
+.right {
+    width: 25%;
+}
+.right .item {
+    margin-bottom: 10.96px;
+}
+/* New-movie */
+.new-movie {
+    margin-top: 30px;
+}
+.new-movie .item {
+    flex-basis: calc(100% / 4 - 30px / 4);
+    margin-bottom: 10px;
+    height: 180px;
+    position: relative;
+}
+.new-movie img:hover {
+    opacity: 0.6;
+}
+.item .play-button {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.item:hover .play-button {
+    display: block;
+}
+.item .name-movie {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    color: white;
+}
+.item .view {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    color: white;
+}
+.new-movie .item img {
+    height: 100%;
+    object-fit: cover;
+}
+.new-movie .item:not(:nth-child(4n)) {
+    margin-right: 10px;
+}
+/* anime-tin */
+.anime-tin {
+    margin-top: 15px;
+}
+.anime-tin-content .item {
+    flex-basis: calc(100% / 4 - 30px / 4);
+    margin-bottom: 10px;
+    height: 90px;
+    font-size: 13px;
+}
+.anime-tin-content img:hover {
+    opacity: 0.6;
+}
+.anime-tin-content .item:not(:nth-child(4n)) {
+    margin-right: 10px;
+}
+.item-anime-tin {
+    flex-basis: calc(100% / 2 - 10px / 2);
+}
+/* manga */
+.manga-content .item:not(:nth-child(6n)) {
+    margin-right: 10px;
+}
+.manga-content .item {
+    position: relative;
+    flex-basis: calc(100% / 6 - 50px / 6);
+    margin-bottom: 10px;
+}
+.manga-content .chap {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    padding: 0 5px;
+    background-color: black;
+}
+.manga-content .name-manga {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    background-color: rgb(87, 84, 84);
+}
+.manga-content img:hover {
+    opacity: 0.6;
+}
+/* footer */
+.footer {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.xemthem {
+    position: absolute;
+    top: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
