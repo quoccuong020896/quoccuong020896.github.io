@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --degress: linear-gradient(90deg, pink, skyblue);
+    --gutter: 10px;
+    --primary-font: 'Open Sans', sans-serif;
+    --primary-color: #333;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100%;
+    background-image: var(--degress);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.col-1 {
+    flex-basis: 8.33%;
+}
+.col-2 {
+    flex-basis: 16.67%;
+}
+.col-3 {
+    flex-basis: 25%;
+}
+.col-4 {
+    flex-basis: 33.33%;
+}
+.col-5 {
+    flex-basis: 41.67%;
+}
+.col-6 {
+    flex-basis: 50%;
+}
+.col-7 {
+    flex-basis: 58.33%;
+}
+.col-8 {
+    flex-basis: 66.67%;
+}
+.col-9 {
+    flex-basis: 75%;
+}
+.col-10 {
+    flex-basis: 83.33%;
+}
+.col-11 {
+    flex-basis: 91.67%;
+}
+.col-12 {
+    flex-basis: 100%;
+}
+[class*="col-"] {
+    padding: calc(var(--gutter) / 2);
+    order: 12;
+}
+.oder-1 {
+    order: 1;
+}
+.oder-2 {
+    order: 2;
+}
+.oder-3 {
+    order: 3;
+}
+.oder-4 {
+    order: 4;
+}
+.oder-5 {
+    order: 5;
+}
+.oder-6 {
+    order: 6;
+}
+.oder-7 {
+    order: 7;
+}
+.oder-8 {
+    order: 8;
+}
+.oder-9 {
+    order: 9;
+}
+.oder-10 {
+    order: 10;
+}
+.oder-11 {
+    order: 11;
+}
+.oder-12 {
+    order: 12;
+}
+.flex {
+    display: flex;
+}
+.flex.wrap {
+    flex-wrap: wrap;
+}
+.flex.row {
+    flex-direction: row;
+}
+.flex.column {
+    flex-direction: column;
+}
+.flex.j-start {
+    justify-content: flex-start;
+}
+.flex.j-center {
+    justify-content: center;
+}
+.flex.j-end {
+    justify-content: flex-end;
+}
+.flex.j-between {
+    justify-content: space-between;
+}
+.flex.a-stretch {
+    align-items: stretch;
+}
+.flex.a-start {
+    align-items: flex-start;
+}
+.flex.a-center {
+    align-items: center;
+}
+.flex.a-end {
+    align-items: flex-end;
+}
+
