@@ -98,3 +98,57 @@ function avg(obj) {
     return avg = sum / count;
 };
 console.log(avg(salaries));
+/*
+1. Viết hàm remove(obj, key), hàm nhận vào tham số thứ nhất là một object và tham số thứ 2 là một chuỗi,
+    trả về một object MỚI không chứa key tương ứng với tham số thứ 2.
+
+VD:
+let demo = {a: 1, b: 2}
+remove(demo, 'b') -> {a: 1}
+*/
+
+
+/*
+2. Viết hàm isEqual(obj1, obj2) thực hiện so sánh giá trị của 2 object.
+VD:
+let a = {x: 1, y: 2}
+let b = {x: 1, y: 2}
+isEqual(a, b) -> true
+*/
+/*
+function isEqual(obj1, obj2) {
+    for (let k in obj1) {
+        if (!(k in obj2) || obj1[k] != obj2[k]) {
+            return false;
+        }
+    }
+    for (let k in obj2) {
+      if (!(k in obj1) || obj1[k] != obj2[k]) {
+        return false;
+      }
+    }
+    return true;
+}
+console.log(isEqual());
+*/
+/*
+3. Viết hàm intersection(obj1, obj2) nhận vào tham số là 2 object, trả về một object mới chứa
+thuộc tính chung giữa 2 obj
+
+VD:
+let a = {x: 1, y: 2}
+let b = {x: 1, z: 2}
+intersection(a, b) -> {x: 1}
+*/
+/*
+function intersection(obj1, obj2) {
+    let objReturn = {};
+    for (let k in obj1) {
+        if (k in obj2 && obj1[k] == obj2[k]) {
+            objReturn[k] = obj1[k];
+        }
+    }
+    return objReturn;
+}
+console.log(intersection(a, b));
+*/
