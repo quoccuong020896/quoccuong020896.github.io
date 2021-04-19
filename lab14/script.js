@@ -167,7 +167,7 @@
 // // Ví dụ
 // monday(date); // "2020-02-12"
 // ```
-
+/*
 let fruit = ["orange", "apple", "strawberry"];
 
 fruit[0] = "mango";
@@ -175,6 +175,7 @@ console.log(fruit[0]);
 console.log(fruit.length);
 fruit.splice(2, 3); //xoa
 fruit.splice(2, null, "a", "b"); //them
+*/
 //sort sap xep theo chuoi
 // for(i = 0; i < fruit.length; i++){
 //     console.log(fruit[i]);
@@ -219,3 +220,84 @@ fruit.splice(2, null, "a", "b"); //them
 
 // let arr = ["ba", 0, {name: "beo", age: 28}];
 // arr[2].name//beo
+
+
+
+
+// homework
+/*
+// 1. Cho một mảng số, viết hàm tính trung bình cộng tất cả phần tử trong mảng
+let arr = [5, 6, 8, 10];
+function tinhAvg(avg) {
+    let x = avg.reduce((sum, i) => (sum += i));
+    return x / avg.length;
+}
+console.log(tinhAvg(arr));
+*/
+/*
+// 2. Cho một mảng số, viết hàm tìm giá trị lớn nhất trong mảng, kết quả trả về bao gồm giá trị và chỉ mục tương ứng
+let arr = [5, 6, 8, 15];
+function maxOfArr(maxArr) {
+    let obj = {};
+    let x = Math.max.apply(Math, maxArr);
+    let indexx = maxArr.indexOf(x);
+    obj["index"] = indexx;
+    obj["value"] = x;
+    console.log(obj);
+}
+maxOfArr(arr);
+*/
+
+// 3. Cho một mảng số viết hàm tìm số lớn thứ 2 trong mảng
+/*
+let arr = [5, 6, 8, 15];
+function secondValue(arr) {
+    let max = arr[0];
+    let second;
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] > max) {
+            second = max;
+            max = arr[i];
+        }
+    }
+    return second;
+}
+
+*/
+// 4. Viết hàm chuyển đổi một chuỗi thành dạng capitalize.
+/*
+function toCap(word) {
+    let result = word[0].toUpperCase() + word.slice
+
+}
+*/
+//10. Viết hàm sắp xếp mảng với vị trí ngẫu nhiên (xáo trộn mảng)
+/*
+function shuffle(arr) {
+    let randomIndex = Math.floor(Math.random() * arr.length);
+    let randomIndex2 = Math.floor(Math.random() * arr.length);
+    let temp = arr[randomIndex];
+    arr[randomIndex] = arr[randomIndex2];
+    arr[randomIndex2] = temp;
+    return arr;
+};
+*/
+// 7. Viết hàm tách chuỗi thành một mảng các chuỗi con
+/*
+function breakWord(str) {
+    let result = [];
+    for (let i = 0; i < str.length; i++){
+        for (let j = i + 1; j <= str.length; j++){
+            result.push(str.slice(i, j));
+        }
+    }
+    return result;
+};
+*/
+// 8. Viết hàm loại bỏ các giá trị “false” khỏi mảng.
+/*
+function removeFalsy(arr) {
+    return arr.filter(Boolean);
+};
+*/
+
