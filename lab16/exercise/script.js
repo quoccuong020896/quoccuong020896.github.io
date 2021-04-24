@@ -96,15 +96,11 @@ for (let i = 1; i <= tableLength; i++) {
  * Sử dụng event: mouseover, mouseout, mousein, ...
  */
 
-for (let i = 0; i <= tableLength; i++) {
+for (let i = 0; i < tableLength + 1; i++) {
 
     let hover = document.getElementById("trid" + i);
-    hover.onmouseover = function() {
-        mouseOver();
-    };
-    hover.onmouseout = function() {
-        mouseOut();
-    };
+    hover.addEventListener("mouseover", mouseOver());
+    hover.addEventListener("mouseout", mouseOut());
 
     function mouseOver() {
         this.classList.add("red");
