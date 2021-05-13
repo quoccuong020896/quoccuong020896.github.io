@@ -79,7 +79,7 @@ for (let i in students[0]) {
     document.getElementById("trhid").appendChild(th);
 }
 
-for (let i = 1; i <= tableLength; i++) {
+for (let i = 1; i < tableLength; i++) {
     let tr = document.createElement("tr");
     tr.setAttribute("id", "trid" + i);
     tr.setAttribute("class", "trcl");
@@ -96,11 +96,10 @@ for (let i = 1; i <= tableLength; i++) {
  * Sử dụng event: mouseover, mouseout, mousein, ...
  */
 
-for (let i = 0; i < tableLength + 1; i++) {
-
+for (let i = 1; i < tableLength; i++) {
     let hover = document.getElementById("trid" + i);
-    hover.addEventListener("mouseover", mouseOver());
-    hover.addEventListener("mouseout", mouseOut());
+    hover.addEventListener("mouseover", mouseOver);
+    hover.addEventListener("mouseout", mouseOut);
 
     function mouseOver() {
         this.classList.add("red");
@@ -116,6 +115,19 @@ for (let i = 0; i < tableLength + 1; i++) {
  * Có thay đổi thứ tự (click 1 lần sx tăng dần, click 2 lần giảm, 
  * và icon hiển thị trạng thái tăng/giảm)
  */
+let sapxep = document.querySelectorAll("th");
+sapxep[1].setAttribute("id", "thSapXep");
+
+document.getElementById("thSapXep").onclick = function() { up() };
+document.getElementById("thSapXep").ondblclick = function() {
+    down()
+};
+
+function up() {};
+
+function down() {};
+
+
 
 /**
  * Thêm form, ô input và nút tìm kiếm

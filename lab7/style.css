@@ -39,7 +39,6 @@ img {
 .row {
     display: flex;
     flex-flow: row wrap;
-
 }
 .col-1 {
     flex-basis: 8.33%;
