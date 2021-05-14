@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+</head>
+
+<body>
+<div id="error_message" class="popup"></div>
+  <div class="tab-pane fade active show" id="sign-up-div" role="tabpanel">
+    <h2> Đăng Kí</h2>
+								<form id="myform" name="form" onsubmit="return val()">
+									<div class="modal-login-item">
+										<input type="text" placeholder="Họ tên" id="name" required="">
+									</div>
+									<div class="modal-login-item">
+										<input type="text" placeholder="Email" id="email" required="">
+									</div>
+									<div class="modal-login-item">
+										<input type="text" placeholder="Điện thoại" id="phone" required="">
+									</div>
+									<div class="modal-login-item">
+										<input type="password" placeholder="Mật khẩu" id="pass" required="" aria-autocomplete="list">
+									</div>
+									<div class="modal-login-item">
+										<input type="password" placeholder="Nhập lại mật khẩu" id="cpass" required="">
+									</div>
+									<div class="modal-login-item">
+										<button type="button" class="btn btn-green btn-login-modal" id="signUpSubmitBtn" onclick="return val()">Đăng ký</button>
+									</div>
+								</form>
+							</div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="script.js"></script>
+</body>
+
+</html>
