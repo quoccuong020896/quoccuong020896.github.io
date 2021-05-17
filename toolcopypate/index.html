@@ -70,7 +70,13 @@ margin-bottom: 10px;
 <h1> Tool Copy And Pate </h1>
 <div class="container">
     
-    <textarea placeholder="Write Comment" name="comments" id="comments" class="mrbt wtextarea"></textarea>
+    <textarea placeholder="Write Comment" name="comments" id="comments" class="wtextarea"></textarea>
+    <div class="tooltip">
+    <button onclick="myFunction0()" onmouseout="outFunc0()" class="hbt mrbt">
+      <span class="tooltiptext" id="myTooltip0">Copy to clipboard</span>
+      Copy Textarea
+      </button>
+    </div>
     
     <div class="mrbt">
     <input type="text" value="" id="myInput" class="inputbg">
@@ -123,6 +129,20 @@ margin-bottom: 10px;
     </div>
 </div>
 <script>
+function myFunction0() {
+  var copyText = document.getElementById("comments");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip0");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc0() {
+  var tooltip = document.getElementById("myTooltip0");
+  tooltip.innerHTML = "Copy to clipboard";
+}
 function myFunction() {
   var copyText = document.getElementById("myInput");
   copyText.select();
