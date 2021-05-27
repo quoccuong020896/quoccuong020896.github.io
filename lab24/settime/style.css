@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    background: white;
+    color: #413779;
+    font-family: Menlo;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 107, 0, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.controls {
+  position: fixed;
+  text-align: center;
+  top: 12em;
+  width: 100%;
+}
+
+.button {
+  padding-top: 50px;
+  color: rgb(121, 116, 116);
+  font-size: 3vw;
+  margin: 0 0.5em;
+  text-decoration: none;
+
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+  color: rgb(7, 7, 7);
+}
+
+.stopwatch {
+  font-size: 100px;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.results {
+  border-color: lime;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
